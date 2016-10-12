@@ -1,9 +1,9 @@
 TextSiri
 ---
 
-## TextSiri has been completely rewritten and none of the modules are compatible. I am going to rewrite them to be compatible soon.
+## TextSiri has been completely rewritten and none of the existing modules are compatible. I am going to rewrite them to be compatible soon.
 
-TextSiri is an IRC bot with outstanding modularity. All of its power comes from **modules**, a new way to add commands to your bot! Simply throw all of your modules to the **modules** folder, and you are set!
+TextSiri is an IRC bot with outstanding modularity. All of its power comes from **modules**, a new way to add commands to your bot! Simply throw all of your modules to the **modules** folder, and you're set!
 
 Requirements
 ---
@@ -15,12 +15,12 @@ Requirements
 Configuration
 ---
 
-When you first run TextSiri it will create a new file for you called **config.cfg**. All of the bot's behavior can be changed from here. This is also where your bot's modules' configuration stays. Keep it safe!
+When you first run TextSiri it will create a new file for you called **config.cfg**. All of the bot's behavior can be changed from here. This is also where the configuration for your bot's modules stay. Keep it safe!
 
 Modules
 ---
 
-All of the modules that I have created can be found [here](http://github.com/mission712/textsiri-modules). Simply throw them in the **modules** directory. They will automatically create their configuration files, and you may change them while the bot's running (Feature of the *Reload* module).
+All of the modules that I have created can be found [here](http://github.com/mission712/textsiri-modules). Simply throw them in the **modules** directory. They will automatically create their own configuration files, and you can change them while the bot is running (this is a feature of the *Reload* module).
 
 License
 ---
